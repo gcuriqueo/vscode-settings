@@ -1,0 +1,65 @@
+[
+    {
+        "key": "ctrl+numpad9 ctrl+numpad9",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+1",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },     
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+numpad_divide",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.showAllEditorsByMostRecentlyUsed"
+      },
+      {
+        "key": "alt+oem_7",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+      },
+      {
+        "key": "alt+oem_2",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+      },
+      {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+      },
+      {
+        "key": "ctrl+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+      },      
+      {
+        "key": "alt+up",
+        "command": "editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "alt+down",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+      }
+
+]
