@@ -27,5 +27,5 @@
     "editor.lineHeight": 2.1,
     "editor.fontFamily": "JetBrains Mono",
     "breadcrumbs.symbolPath": "off",
-    "terminal.integrated.fontFamily": "monospace"
+    "terminal.integrated.fontFamily": "Consolas"
 }
